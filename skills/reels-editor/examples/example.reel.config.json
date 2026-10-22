@@ -1,0 +1,20 @@
+{
+  "src": "reel/assets/clips/clip.mp4",
+  "lut": "reel/work/lut/grade.cube",
+  "lutBw": "reel/work/lut/grade_bw.cube",
+  "audioChannel": 0,
+  "workDir": "reel/work",
+  "master": "public/master.mp4",
+  "targetLufs": -14,
+  "segments": [
+    { "label": "coldOpen", "kind": "coldopen", "fromCuts": { "file": "reel/work/cuts.json", "key": "coldOpen" } },
+    { "label": "intro", "kind": "speech", "fromCuts": { "file": "reel/work/cuts.json", "key": "intro" } },
+    { "label": "intro2", "kind": "speech", "fromCuts": { "file": "reel/work/cuts.json", "key": "intro2" } },
+    { "label": "montage", "kind": "montage", "a": 21.4, "b": 22.1, "audio": "mute" },
+    { "label": "montage", "kind": "montage", "a": 23.4, "b": 24.1, "audio": "mute" },
+    { "label": "montage", "kind": "montage", "a": 25.3, "b": 26.0, "audio": "mute" },
+    { "label": "lacrado", "kind": "phrase", "a": 33.0, "b": 36.5, "audio": "megaphone", "grade": "bw" },
+    { "label": "montage", "kind": "montage", "a": 43.9, "b": 44.6, "audio": "mute" },
+    { "label": "main", "kind": "speech", "fromCuts": { "file": "reel/work/cuts.json", "key": "main" } }
+  ]
+}

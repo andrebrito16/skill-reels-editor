@@ -1,0 +1,9 @@
+{
+  "dropRanges": [[15121, 23840]],
+  "retime": [{ "text": "Olha aí o que a Acme Audio me mandou aqui.", "startMs": 21481, "endMs": 23780 }],
+  "textReplace": [
+    { "find": "\\bum unboxing\\b", "replace": "o unboxing" },
+    { "find": "^em Y aqui", "replace": "em L aqui", "afterPageMatching": "cabos$" }
+  ],
+  "clipBefore": [15121, 15821, 16521, 20721]
+}
